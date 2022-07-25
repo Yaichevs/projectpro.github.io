@@ -1,0 +1,111 @@
+@media (max-width: 1200px) {
+    .promo {
+        padding: 15px;
+    }
+
+    .consult {
+        padding: 10px;
+        &__header {
+            font-size: 26px;
+            line-height: 50px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        &__official {
+            display: none;
+        }
+        &__logo {
+            width: 200px;
+        }
+        &__phone {
+            font-size: 15px;
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 27px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+        &__icons {
+            width: 330px;
+        }
+        &__link {
+            font-size: 15px;
+        }
+    }
+    .button_main {
+        width: 260px;
+    }
+    .advant {
+        &__wrapper {
+            display: block;
+            padding: 0 90px;
+        }
+    }
+    .consult {
+        &__header {
+            font-size: 22px;
+        }
+        &__subheader {
+            width: 400px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        &__logo {
+            width: 120px;
+        }
+        &__phone {
+            font-size: 14px;
+        }
+    }
+    .button {
+        width: 125px;
+    }
+    .promo {
+        &__header {
+            font-size: 23px;
+        }
+        &__subheader {
+            font-size: 18px;
+        }
+        &__icons {
+            width: 295px;
+        }
+        &__link {
+            font-size: 14px;
+        }
+    }
+    .button_main {
+        width: 195px;
+    }
+    .advant {
+        &__header {
+            font-size: 23px;
+        }
+        &__wrapper {
+            padding: 0 53px;
+        }
+    }
+    .consult {
+        &__header {
+            font-size: 22px;
+            line-height: 30px;
+        }
+        &__subheader {
+            width: 300px;
+            font-size: 17px;
+            margin-top: 10px;
+        }
+    }
+    .button_submit {
+        width: 300px;
+    }
+}
